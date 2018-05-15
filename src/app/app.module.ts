@@ -13,6 +13,7 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { EmpresaComponent } from './components/empresa/empresa.component';
 import { PropiedadComponent } from './components/propiedad/propiedad.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { PropiedadComponent } from './components/propiedad/propiedad.component';
     InicioComponent,
     FooterComponent,
     EmpresaComponent,
-    PropiedadComponent
+    PropiedadComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
