@@ -1,0 +1,179 @@
+<div class="fondoDivEdificio margen text-center centrarDiv animated fadeIn fast">
+  <form class="form-inline justify-content-center">
+    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+      <option selected>OPERACION</option>
+      <option value="1">Venta</option>
+      <option value="2">Alquiler</option>
+    </select>
+
+    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+      <option selected>PROPIEDAD</option>
+      <option value="1">Casa</option>
+      <option value="2">Departamento</option>
+      <option value="3">Galpon</option>
+      <option value="4">Cochera</option>
+      <option value="5">Oficina</option>
+      <option value="6">Terreno</option>
+    </select>
+
+    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+      <option selected>UBICACION</option>
+      <option>Capital Federal</option>
+      <option value="1">Buenos Aires - Zona Sur</option>
+      <option value="2">Buenos Aires - Zona Norte</option>
+      <option value="3">Buenos Aires - Zona Oeste</option>
+      <option value="4">Buenos Aires - Costa Atlantica</option>
+    </select>
+
+    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+      <option selected>AMBIENTES</option>
+      <option value="1">1 Ambiente</option>
+      <option value="2">2 Ambientes</option>
+      <option value="3">3 Ambientes</option>
+      <option value="4">4 Ambientes</option>
+      <option value="5">5 Ambientes</option>
+      <option value="6">+5 Ambientes</option>
+    </select>
+
+    <button type="submit" class="btn btn-primary">Buscar</button>
+
+  </form>
+</div>
+
+<h3 class="text-center margen">Propiedades Destacadas</h3>
+<hr class="my-1 hrCorto">
+
+<div class="row justify-content-center">
+
+<!-- Detalle a tener en cuenta, cuando traiga las card tengo que asignarles id distintos a los divs sino no funciona -->
+<div class="card cardMargenes text-center" onmouseover="document.getElementById('verMas').style.display = 'block'; document.getElementById('botonVerMas').style.display = 'block';" onmouseout="document.getElementById('verMas').style.display = 'none'; document.getElementById('botonVerMas').style.display = 'none';" style="width: 18rem;">
+  <a href="http://google.com"><img class="card-img-top" src="./assets/img/propiedades/prop1.jpg"  alt="Card image cap"></a>
+  <div id="verMas" class="verMas"></div>
+  <div id="botonVerMas" class="botonVerMas"><p class="btn btn-success marginButton"><i class="fas fa-search"></i> Ver Detalles</p></div>
+  <div class="cuadroInfo">VENTA</div>
+  <div class="infoFoto"> 70m² | 3 Ambientes  </div>
+  <div class="card-body">
+    <h5 class="card-title">Jose Leon Suarez 1006</h5>
+    <hr class="my-1 hrCorto">
+    <span class="card-text text-uppercase">Liniers</span>
+    <hr class="my-1 hrCorto">
+    <p>
+    <div class="card-text cuadroPrecio">U$S 50.000</div>
+  </div>
+</div>
+
+<div class="card cardMargenes text-center" onmouseover="document.getElementById('verMas1').style.display = 'block'; document.getElementById('botonVerMas1').style.display = 'block';" onmouseout="document.getElementById('verMas1').style.display = 'none'; document.getElementById('botonVerMas1').style.display = 'none';" style="width: 18rem;">
+  <a href="http://google.com"><img class="card-img-top" src="./assets/img/propiedades/prop1.jpg"  alt="Card image cap"></a>
+  <div id="verMas1" class="verMas"></div>
+  <div id="botonVerMas1" class="botonVerMas"><p class="btn btn-success marginButton"><i class="fas fa-search"></i> Ver Detalles</p></div>
+  <div class="cuadroInfo">VENTA</div>
+  <div class="infoFoto"> 70m² | 3 Ambientes  </div>
+  <div class="card-body">
+    <h5 class="card-title">Jose Leon Suarez 1006</h5>
+    <hr class="my-1 hrCorto">
+    <span class="card-text text-uppercase">Liniers</span>
+    <hr class="my-1 hrCorto">
+    <p>
+    <div class="card-text cuadroPrecio">U$S 50.000</div>
+  </div>
+</div>
+
+<div class="card cardMargenes text-center" onmouseover="document.getElementById('verMas2').style.display = 'block'; document.getElementById('botonVerMas2').style.display = 'block';" onmouseout="document.getElementById('verMas2').style.display = 'none'; document.getElementById('botonVerMas2').style.display = 'none';" style="width: 18rem;">
+  <a href="http://google.com"><img class="card-img-top" src="./assets/img/propiedades/prop1.jpg"  alt="Card image cap"></a>
+  <div id="verMas2" class="verMas"></div>
+  <div id="botonVerMas2" class="botonVerMas"><p class="btn btn-success marginButton"><i class="fas fa-search"></i> Ver Detalles</p></div>
+  <div class="cuadroInfo">VENTA</div>
+  <div class="infoFoto"> 70m² | 3 Ambientes  </div>
+  <div class="card-body">
+    <h5 class="card-title">Jose Leon Suarez 1006</h5>
+    <hr class="my-1 hrCorto">
+    <span class="card-text text-uppercase">Liniers</span>
+    <hr class="my-1 hrCorto">
+    <p>
+    <div class="card-text cuadroPrecio">U$S 50.000</div>
+  </div>
+</div>
+
+<div class="card cardMargenes text-center" onmouseover="document.getElementById('verMas3').style.display = 'block'; document.getElementById('botonVerMas3').style.display = 'block';" onmouseout="document.getElementById('verMas3').style.display = 'none'; document.getElementById('botonVerMas3').style.display = 'none';" style="width: 18rem;">
+  <a href="http://google.com"><img class="card-img-top" src="./assets/img/propiedades/prop1.jpg"  alt="Card image cap"></a>
+  <div id="verMas3" class="verMas"></div>
+  <div id="botonVerMas3" class="botonVerMas"><p class="btn btn-success marginButton"><i class="fas fa-search"></i> Ver Detalles</p></div>
+  <div class="cuadroInfo">VENTA</div>
+  <div class="infoFoto"> 70m² | 3 Ambientes  </div>
+  <div class="card-body">
+    <h5 class="card-title">Jose Leon Suarez 1006</h5>
+    <hr class="my-1 hrCorto">
+    <span class="card-text text-uppercase">Liniers</span>
+    <hr class="my-1 hrCorto">
+    <p>
+    <div class="card-text cuadroPrecio">U$S 50.000</div>
+  </div>
+</div>
+
+<div class="card cardMargenes text-center" onmouseover="document.getElementById('verMas4').style.display = 'block'; document.getElementById('botonVerMas4').style.display = 'block';" onmouseout="document.getElementById('verMas4').style.display = 'none'; document.getElementById('botonVerMas4').style.display = 'none';" style="width: 18rem;">
+  <a href="http://google.com"><img class="card-img-top" src="./assets/img/propiedades/prop1.jpg"  alt="Card image cap"></a>
+  <div id="verMas4" class="verMas"></div>
+  <div id="botonVerMas4" class="botonVerMas"><p class="btn btn-success marginButton"><i class="fas fa-search"></i> Ver Detalles</p></div>
+  <div class="cuadroInfo">VENTA</div>
+  <div class="infoFoto"> 70m² | 3 Ambientes  </div>
+  <div class="card-body">
+    <h5 class="card-title">Jose Leon Suarez 1006</h5>
+    <hr class="my-1 hrCorto">
+    <span class="card-text text-uppercase">Liniers</span>
+    <hr class="my-1 hrCorto">
+    <p>
+    <div class="card-text cuadroPrecio">U$S 50.000</div>
+  </div>
+</div>
+
+<div class="card cardMargenes text-center" onmouseover="document.getElementById('verMas5').style.display = 'block'; document.getElementById('botonVerMas5').style.display = 'block';" onmouseout="document.getElementById('verMas5').style.display = 'none'; document.getElementById('botonVerMas5').style.display = 'none';" style="width: 18rem;">
+  <a href="http://google.com"><img class="card-img-top" src="./assets/img/propiedades/prop1.jpg"  alt="Card image cap"></a>
+  <div id="verMas5" class="verMas"></div>
+  <div id="botonVerMas5" class="botonVerMas"><p class="btn btn-success marginButton"><i class="fas fa-search"></i> Ver Detalles</p></div>
+  <div class="cuadroInfo">VENTA</div>
+  <div class="infoFoto"> 70m² | 3 Ambientes  </div>
+  <div class="card-body">
+    <h5 class="card-title">Jose Leon Suarez 1006</h5>
+    <hr class="my-1 hrCorto">
+    <span class="card-text text-uppercase">Liniers</span>
+    <hr class="my-1 hrCorto">
+    <p>
+    <div class="card-text cuadroPrecio">U$S 50.000</div>
+  </div>
+</div>
+
+<div class="card cardMargenes text-center" onmouseover="document.getElementById('verMas6').style.display = 'block'; document.getElementById('botonVerMas6').style.display = 'block';" onmouseout="document.getElementById('verMas6').style.display = 'none'; document.getElementById('botonVerMas6').style.display = 'none';" style="width: 18rem;">
+  <a href="http://google.com"><img class="card-img-top" src="./assets/img/propiedades/prop1.jpg"  alt="Card image cap"></a>
+  <div id="verMas6" class="verMas"></div>
+  <div id="botonVerMas6" class="botonVerMas"><p class="btn btn-success marginButton"><i class="fas fa-search"></i> Ver Detalles</p></div>
+  <div class="cuadroInfo">VENTA</div>
+  <div class="infoFoto"> 70m² | 3 Ambientes  </div>
+  <div class="card-body">
+    <h5 class="card-title">Jose Leon Suarez 1006</h5>
+    <hr class="my-1 hrCorto">
+    <span class="card-text text-uppercase">Liniers</span>
+    <hr class="my-1 hrCorto">
+    <p>
+    <div class="card-text cuadroPrecio">U$S 50.000</div>
+  </div>
+</div>
+
+<div class="card cardMargenes text-center" onmouseover="document.getElementById('verMas7').style.display = 'block'; document.getElementById('botonVerMas7').style.display = 'block';" onmouseout="document.getElementById('verMas7').style.display = 'none'; document.getElementById('botonVerMas7').style.display = 'none';" style="width: 18rem;">
+  <a href="http://google.com"><img class="card-img-top" src="./assets/img/propiedades/prop1.jpg"  alt="Card image cap"></a>
+  <div id="verMas7" class="verMas"></div>
+  <div id="botonVerMas7" class="botonVerMas"><p class="btn btn-success marginButton"><i class="fas fa-search"></i> Ver Detalles</p></div>
+  <div class="cuadroInfo">VENTA</div>
+  <div class="infoFoto"> 70m² | 3 Ambientes  </div>
+  <div class="card-body">
+    <h5 class="card-title">Jose Leon Suarez 1006</h5>
+    <hr class="my-1 hrCorto">
+    <span class="card-text text-uppercase">Liniers</span>
+    <hr class="my-1 hrCorto">
+    <p>
+    <div class="card-text cuadroPrecio">U$S 50.000</div>
+  </div>
+</div>
+
+
+
+</div>
