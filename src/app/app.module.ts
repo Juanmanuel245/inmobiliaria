@@ -14,6 +14,9 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { EmpresaComponent } from './components/empresa/empresa.component';
 import { PropiedadComponent } from './components/propiedad/propiedad.component';
 import { AdminComponent } from './components/admin/admin.component';
+import { NuevaComponent } from './components/admin/propiedades/nueva/nueva.component';
+import { VerComponent } from './components/admin/propiedades/ver/ver.component';
+import { EstadisticasComponent } from './components/admin/estadisticas/estadisticas.component';
 
 
 @NgModule({
@@ -24,7 +27,10 @@ import { AdminComponent } from './components/admin/admin.component';
     FooterComponent,
     EmpresaComponent,
     PropiedadComponent,
-    AdminComponent
+    AdminComponent,
+    NuevaComponent,
+    VerComponent,
+    EstadisticasComponent
   ],
   imports: [
     BrowserModule,
